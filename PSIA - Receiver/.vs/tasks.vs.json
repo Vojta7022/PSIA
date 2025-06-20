@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-UDP_Communication_Framework",
+      "appliesTo": "UDP_Communication_Framework/UDP_Communication_Framework.cpp",
+      "type": "launch"
+    }
+  ]
+}

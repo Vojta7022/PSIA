@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "UDP_Communication_Framework.cpp",  // nebo jiné tvoje .cpp soubory
+          "-o",
+          "UDP_Communication_Framework.exe",
+          "-lz",
+          "-lssl",
+          "-lcrypto"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-UDP_Comm",
+      "appliesTo": "UDP_Communication_Framework/UDP_Comm.21D0050F/",
+      "type": "launch"
+    }
+  ]
+}
