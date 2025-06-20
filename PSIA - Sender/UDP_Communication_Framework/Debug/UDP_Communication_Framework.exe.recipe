@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD:PSIA - Sender/UDP_Communication_Framework/Debug/UDP_Communication_Framework.exe.recipe
       <FullPath>C:\Users\ponrt\Documents\_Coding\PSIA\PSIA - Sender\Debug\UDP_Communication_Framework.exe</FullPath>
+=======
+      <FullPath>C:\Users\ponrt\Documents\_Coding\PSIA\PSIA\Debug\UDP_Communication_Framework.exe</FullPath>
+>>>>>>> 631a64eb24c63c748b3143fb9d16ebfdb2880d58:UDP_Communication_Framework/Debug/UDP_Communication_Framework.exe.recipe
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
