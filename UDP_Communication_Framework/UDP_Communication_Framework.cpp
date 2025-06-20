@@ -1,4 +1,5 @@
 #pragma comment(lib, "ws2_32.lib")
+#include "stdafx.h"
 #include <winsock2.h>
 #include <ws2tcpip.h>
 #include <stdio.h>
@@ -8,14 +9,14 @@
 #define BUFFERS_LEN 1024
 
 // ODKOMENTUJ POUZE JEDNU Z NÁSLEDUJÍCÍCH ŘÁDKŮ:
-//#define SENDER
-#define RECEIVER
+#define SENDER
+//#define RECEIVER
 
 #ifdef SENDER
-#define TARGET_IP   "147.32.221.16"   // Změň na IP přijímače
+#define TARGET_IP   "192.168.1.166"   // Změň na IP přijímače
 #define TARGET_PORT 5555
 #define LOCAL_PORT  8888
-#define FILENAME    "C:\\Users\\vejvo\\Downloads\\UDP_Communication_Framework\\file.txt"
+#define FILENAME    "C:\\Users\\ponrt\\Documents\\_Coding\\PSIA\\PSIA\\UDP_Communication_Framework\\file.txt"
 #endif
 
 #ifdef RECEIVER
@@ -148,7 +149,8 @@ int main() {
                     printf("File error! Cannot create %s\n", filename.c_str());
                     getchar();
                     return 1;
-                } else {
+                }
+                else {
                     printf("Receiving file: %s\n", filename.c_str());
                 }
             }
@@ -166,7 +168,8 @@ int main() {
                 break;
             }
 
-        } else {
+        }
+        else {
             if (file == NULL) continue;
 
             uint32_t offset;
@@ -179,7 +182,8 @@ int main() {
                 file_offset += data_len;
 
                 printf("Written %d bytes at offset %d\n", data_len, offset);
-            } else {
+            }
+            else {
                 printf("Offset mismatch! Expected %d, got %d\n", file_offset, offset);
             }
         }
