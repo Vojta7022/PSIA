@@ -1,0 +1,35 @@
+# Visual Studio
+.vs/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.slnx.sqlite
+*.user
+*.suo
+*.wsuo
+ipch/
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.pch
+*.idb
+*.recipe
+*.log
+*.tlog
+*.lastbuildstate
+*.FileListAbsolute.txt
+
+# Copilot / generated IDE indexes
+CopilotIndices/
+FileContentIndex/
+copilot-chat/
+
+# OS files
+.DS_Store
